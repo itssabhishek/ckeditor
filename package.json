@@ -9,11 +9,15 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "@ckeditor/ckeditor5-react": "5.0.6",
-    "@emotion/react": "latest",
-    "@emotion/styled": "latest",
-    "@mui/material": "latest",
-    "ckeditor5-mathtype": "1.0.4",
+    "@ckeditor/ckeditor5-basic-styles": "^35.4.0",
+    "@ckeditor/ckeditor5-dev-utils": "^32.0.2",
+    "@ckeditor/ckeditor5-editor-classic": "^35.4.0",
+    "@ckeditor/ckeditor5-essentials": "^35.4.0",
+    "@ckeditor/ckeditor5-paragraph": "^35.4.0",
+    "@ckeditor/ckeditor5-react": "^5.0.6",
+    "@ckeditor/ckeditor5-theme-lark": "^35.4.0",
+    "ckeditor5-custom-build": "file:./ckeditor5",
+    "raw-loader": "4",
     "react": "latest",
     "react-dom": "latest",
     "react-scripts": "latest"
